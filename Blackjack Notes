@@ -1,0 +1,25 @@
+Blackjack Notes
+
+-Need to scaffold webpack and babble to run ES6 and bundle code
+-using partypack for this scaffolding
+	- npm run develop
+	- cannot have 2 instances running on same port
+	- needed to install 
+		- path
+		- babel
+		- babel-core
+		- babel-loader
+		- babel-preset-es2015 ==> npm install --save-dev babel-preset-es2015
+	- webpack.dev.config.js
+		- this is the config for web pack in dev
+		- needed to change the loader to babel-loader loader: 'babel-loader'
+	- Added to package.json
+		"babel": {
+		    "presets": [
+		      "es2015",
+		      "react"
+		    ]
+		  }
+	- port is in server.js
+
+- 
