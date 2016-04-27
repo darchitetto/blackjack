@@ -5,6 +5,7 @@ Blackjack Notes
 	- npm run develop
 	- cannot have 2 instances running on same port
 	- needed to install 
+		- React npm install babel-preset-react
 		- path
 		- babel
 		- babel-core
